@@ -3,7 +3,7 @@
   height: 500px;
   width: 500px;
   box-shadow: 0 0 10px silver;
-  margin: 15px auto;
+  margin: 10px auto;
   background: #00d4ff;
   background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
   overflow: auto;
@@ -12,7 +12,7 @@
 .wrapper h1 {
   font-size: 50px;
   color: #1eff00;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 .wrapper h1 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -21,7 +21,7 @@
 .wrapper h2 {
   font-size: 30px;
   color: #1eff00;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 .wrapper h2 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -33,7 +33,7 @@ header {
   height: 100px;
   background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
   overflow: auto;
-  margin: 15px auto;
+  margin: 10px auto;
   text-align: center;
   color: #1eff00;
 }
@@ -46,7 +46,7 @@ footer {
   height: 100px;
   background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
   overflow: auto;
-  margin: 15px auto;
+  margin: 10px auto;
   text-align: center;
   color: #1eff00;
 }
