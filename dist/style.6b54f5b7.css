@@ -37,7 +37,6 @@ header {
   text-align: center;
   color: #1eff00;
 }
-
 header:hover {
   animation: animationtest 1s linear;
 }
@@ -51,7 +50,6 @@ footer {
   text-align: center;
   color: #1eff00;
 }
-
 footer:hover {
   animation: animationtest 1s linear;
 }

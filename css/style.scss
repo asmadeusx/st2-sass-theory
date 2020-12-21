@@ -42,9 +42,9 @@ header{
     margin: $margin_center;
     text-align: center;
     color: $font-color;
-}
-header:hover{
-    animation: animationtest 1s linear ;
+    &:hover{
+        animation: animationtest 1s linear ;
+    }
 }
 footer{
     font-size: 20px;
@@ -54,9 +54,9 @@ footer{
     margin: $margin_center;
     text-align: center;
     color: $font-color;
-}
-footer:hover{
-    animation: animationtest 1s linear ;
+    &:hover{
+        animation: animationtest 1s linear ;
+    }
 }
 @keyframes animationtest{
     0% {
