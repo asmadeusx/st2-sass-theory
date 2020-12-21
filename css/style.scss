@@ -1,0 +1,74 @@
+$bgc_lg: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+$bgc_lg2: linear-gradient(45deg, rgb(251, 255, 0) 0%, rgb(104, 102, 6) 50%, rgba(251, 255, 0) 100%);
+$font-color: rgb(30, 255, 0);
+$margin_center: 15px auto;
+
+
+
+.wrapper{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 0 10px  rgb(192, 192, 192);
+    margin: $margin_center;
+    background: rgb(0,212,255);
+    background: $bgc_lg;
+    overflow: auto;
+    text-align: center;
+    h1{
+        font-size: 50px;
+        color: $font-color;
+        margin: $margin_center;
+            p{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+            }
+    }
+    h2{
+        font-size: 30px;
+        color: $font-color;
+        margin: $margin_center;
+            p{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bold;
+            }
+    }
+}
+header{
+    font-size: 20px;
+    height: 100px;
+    background: $bgc_lg;
+    overflow: auto;
+    margin: $margin_center;
+    text-align: center;
+    color: $font-color;
+}
+header:hover{
+    animation: animationtest 1s linear ;
+}
+footer{
+    font-size: 20px;
+    height: 100px;
+    background: $bgc_lg;
+    overflow: auto;
+    margin: $margin_center;
+    text-align: center;
+    color: $font-color;
+}
+footer:hover{
+    animation: animationtest 1s linear ;
+}
+@keyframes animationtest{
+    0% {
+        font-size: 20px;
+        background: $bgc_lg;
+    }
+    50% {
+        font-size: 40px;
+        background: $bgc_lg2;
+    }
+    100% {
+        font-size: 20px;
+        background: $bgc_lg;
+    }
+}

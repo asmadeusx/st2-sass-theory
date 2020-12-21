@@ -1,0 +1,74 @@
+.wrapper {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  box-shadow: 0 0 10px silver;
+  margin: 15px auto;
+  background: #00d4ff;
+  background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
+  overflow: auto;
+  text-align: center;
+}
+.wrapper h1 {
+  font-size: 50px;
+  color: #1eff00;
+  margin: 15px auto;
+}
+.wrapper h1 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.wrapper h2 {
+  font-size: 30px;
+  color: #1eff00;
+  margin: 15px auto;
+}
+.wrapper h2 p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+header {
+  font-size: 20px;
+  height: 100px;
+  background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
+  overflow: auto;
+  margin: 15px auto;
+  text-align: center;
+  color: #1eff00;
+}
+
+header:hover {
+  animation: animationtest 1s linear;
+}
+
+footer {
+  font-size: 20px;
+  height: 100px;
+  background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
+  overflow: auto;
+  margin: 15px auto;
+  text-align: center;
+  color: #1eff00;
+}
+
+footer:hover {
+  animation: animationtest 1s linear;
+}
+
+@keyframes animationtest {
+  0% {
+    font-size: 20px;
+    background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
+  }
+  50% {
+    font-size: 40px;
+    background: linear-gradient(45deg, #fbff00 0%, #686606 50%, #fbff00 100%);
+  }
+  100% {
+    font-size: 20px;
+    background: linear-gradient(45deg, #00d4ff 0%, #090979 50%, #00d4ff 100%);
+  }
+}
+
+/*# sourceMappingURL=/style.6b54f5b7.css.map */
