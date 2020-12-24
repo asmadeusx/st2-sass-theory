@@ -33,7 +33,6 @@ header {
   width: 500px;
   overflow: auto;
   margin: 25px auto;
-  font-size: 10px;
 }
 @media screen and (min-width: 500px) {
   .wrapper {
