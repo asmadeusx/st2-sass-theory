@@ -1,21 +1,27 @@
-@import "../config/vars";
+@import "../config/mixin-vars";
 @include fontstyle();
 
 header{
     @include bgcolor();
+    @include boxshadow();
     height: 100px;
     margin: 25px auto;
 }
 .wrapper{
     @include bgcolor();
+    @include boxshadow(35px, 35px, 35px);
+    @include roundedborder(50px);
     position: relative;
     height: 500px;
     width: 500px;    
     overflow: auto;
     margin: 25px auto;
+    font-size: 10px;
+    @include adapt-monitor(500px);
 }
 footer{
     @include bgcolor();
+    @include boxshadow();
     height: 100px;
     margin: 25px auto;
 }
