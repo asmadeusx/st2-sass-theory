@@ -4,7 +4,7 @@
 header{
     @include bgcolor;
     @include boxshadow;
-    @include menu(#700000);
+    @include menu(#700000, #00ffff);
     height: 100px;
     margin: 25px auto;
 }

@@ -31,10 +31,13 @@ header .btn {
   text-align: center;
   line-height: 50px;
   background-color: #700000;
-  transition: background-color 0.5s;
+  color: black;
+  transition-property: background-color, color;
+  transition-duration: 1s;
 }
 header .btn:hover {
   background-color: #bd0000;
+  color: #00ffff;
 }
 
 .wrapper {
