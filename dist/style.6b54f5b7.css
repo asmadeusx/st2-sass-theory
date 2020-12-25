@@ -30,11 +30,11 @@ header .btn {
   display: block;
   text-align: center;
   line-height: 50px;
-  background-color: #9e0101;
+  background-color: #700000;
   transition: background-color 0.5s;
 }
 header .btn:hover {
-  background-color: #ea0101;
+  background-color: #bd0000;
 }
 
 .wrapper {

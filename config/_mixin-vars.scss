@@ -43,13 +43,10 @@
         display: block;
         text-align: center;
         line-height: 50px;
-        @include bg-animation($bgclr);
-    }
-}
-@mixin bg-animation($bgclr) {
-    background-color: $bgclr;
-    transition: background-color .5s;
-    &:hover{
-        background-color: lighten($bgclr, 15%);
+        background-color: $bgclr;
+        transition: background-color .5s;
+        &:hover{
+            background-color: lighten($bgclr, 15%);
+        }
     }
 }
